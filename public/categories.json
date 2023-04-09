@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cat_001",
+    "logo": "/job-category/account-finance.png",
+    "name": "Account & Finance",
+    "jobs_available": 500
+  },
+  {
+    "id": "cat_002",
+    "logo": "/job-category/creative-design.png",
+    "name": "Creative Design",
+    "jobs_available": 750
+  },
+  {
+    "id": "cat_003",
+    "logo": "/job-category/marketing.png",
+    "name": "Marketing",
+    "jobs_available": 1000
+  },
+  {
+    "id": "cat_004",
+    "logo": "/job-category/engineering.png",
+    "name": "Engineering",
+    "jobs_available": 250
+  }
+]

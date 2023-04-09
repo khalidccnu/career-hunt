@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "company_logo": "/job-company/google.png",
+    "job_title": "Software Engineer",
+    "company_name": "Google LLC",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "100,000 - 150,000",
+    "job_description": "We are looking for a talented software engineer to join our team and help us build amazing products.",
+    "job_responsibility": "Develop high-quality software using modern programming languages and frameworks",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of professional software development experience",
+    "contact_information": {
+      "phone": "555-555-1234",
+      "email": "jobs@google.com"
+    }
+  },
+  {
+    "id": 2,
+    "company_logo": "/job-company/acme.png",
+    "job_title": "Marketing Manager",
+    "company_name": "Acme Corp.",
+    "remote_or_onsite": "Onsite",
+    "location": "New York City",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "80,000 - 120,000",
+    "job_description": "We are seeking a highly motivated marketing manager to help us drive growth and awareness for our brand.",
+    "job_responsibility": "Develop and execute marketing strategies across multiple channels",
+    "educational_requirements": "Bachelor's degree in Marketing or related field",
+    "experiences": "5+ years of professional marketing experience",
+    "contact_information": {
+      "phone": "555-555-5678",
+      "email": "jobs@acmecorp.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "/job-company/creative.png",
+    "job_title": "Graphic Designer",
+    "company_name": "Creative Co.",
+    "remote_or_onsite": "Onsite",
+    "location": "Los Angeles",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "30,000 - 50,000",
+    "job_description": "We are seeking a creative and talented graphic designer to help us bring our brand to life.",
+    "job_responsibility": "Design and develop high-quality graphics and visual content for various mediums",
+    "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+    "experiences": "2+ years of professional graphic design experience",
+    "contact_information": {
+      "phone": "555-555-9012",
+      "email": "jobs@creativeco.com"
+    }
+  },
+  {
+    "id": 4,
+    "company_logo": "/job-company/brandboost.png",
+    "job_title": "Marketing Manager",
+    "company_name": "BrandBoost",
+    "remote_or_onsite": "Remote",
+    "location": "N/A",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "90,000 - 110,000",
+    "job_description": "We are seeking a talented marketing manager to lead our brand strategy and help us achieve our growth targets.",
+    "job_responsibility": "Develop and execute marketing plans and campaigns across various channels to drive brand awareness and lead generation",
+    "educational_requirements": "Bachelor's degree in Marketing, Communications or related field",
+    "experiences": "5+ years of experience in marketing, with at least 2 years in a managerial role",
+    "contact_information": {
+      "phone": "555-555-1234",
+      "email": "jobs@brandboost.com"
+    }
+  },
+  {
+    "id": 5,
+    "company_logo": "/job-company/analytics.png",
+    "job_title": "Data Scientist",
+    "company_name": "Analytics Co.",
+    "remote_or_onsite": "Onsite",
+    "location": "Chicago",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "120,000 - 150,000",
+    "job_description": "We are seeking a talented data scientist to help us develop and implement data-driven solutions.",
+    "job_responsibility": "Develop and implement statistical models and algorithms to analyze and interpret complex data sets",
+    "educational_requirements": "Master's degree or PhD in Computer Science, Statistics, Mathematics or related field",
+    "experiences": "5+ years of experience in data science or related field",
+    "contact_information": {
+      "phone": "555-555-3456",
+      "email": "jobs@analyticsco.com"
+    }
+  },
+  {
+    "id": 6,
+    "company_logo": "/job-company/peoplefirst.png",
+    "job_title": "Human Resources Manager",
+    "company_name": "People First Inc.",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "100,000 - 130,000",
+    "job_description": "We are seeking an experienced human resources manager to help us attract, develop and retain top talent.",
+    "job_responsibility": "Develop and implement HR strategies to support the company's goals and objectives",
+    "educational_requirements": "Bachelor's degree in Human Resources or related field",
+    "experiences": "7+ years of professional HR experience, with at least 3 years in a managerial role",
+    "contact_information": {
+      "phone": "555-555-7890",
+      "email": "jobs@peoplefirst.com"
+    }
+  }
+]
