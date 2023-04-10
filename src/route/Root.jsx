@@ -1,5 +1,6 @@
 import React, { createContext } from "react";
 import { Outlet, useLoaderData } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 import Nav from "../component/Nav.jsx";
 import Footer from "../component/Footer.jsx";
 
@@ -15,6 +16,7 @@ const Root = () => {
         <Outlet />
       </LoaderContext.Provider>
       <Footer />
+      <Toaster />
     </>
   );
 };

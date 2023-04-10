@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import toast from "react-hot-toast";
 import { applyJob, getJob } from "../utility/index.js";
 import { LoaderContext } from "../route/Root.jsx";
 import {
@@ -19,6 +20,7 @@ const JobDetailsContainer = () => {
 
   const handleApply = (id) => {
     applyJob(id);
+    toast.success("Successfully applied!");
     setApply(true);
   };
 
