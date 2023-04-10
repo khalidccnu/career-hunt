@@ -19,7 +19,9 @@ const Error = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">Oops!</h2>
-              <h4 className="font-medium">{status + " " + statusText}</h4>
+              <h4 className="font-medium">
+                {status && statusText ? status + " " + statusText : null}
+              </h4>
               <p className="text-gray-500">
                 Sorry, an error has occurred, Requested page not found!
               </p>

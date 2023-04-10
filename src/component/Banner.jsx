@@ -4,7 +4,7 @@ import careerHuntAnm from "../asset/career-hunt.json";
 
 const Banner = () => {
   return (
-    <section className="bg-[linear-gradient(90deg,_rgba(126,_144,_254,_0.05)_0%,_rgba(152,_115,_255,_0.05)_100%)] pt-5 pb-16">
+    <section className="flex items-center min-h-[calc(100vh_-_4rem)] bg-[linear-gradient(90deg,_rgba(126,_144,_254,_0.05)_0%,_rgba(152,_115,_255,_0.05)_100%)] py-5">
       <div className="container">
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
           <div className="max-w-xs">

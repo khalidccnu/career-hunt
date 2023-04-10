@@ -1,5 +1,7 @@
 import React, { useCallback, useState } from "react";
 import { PieChart, Pie, Sector } from "recharts";
+import { UilInfoCircle } from "../component/Unicons.jsx";
+import Breadcrumb from "../component/Breadcrumb.jsx";
 
 const renderActiveShape = (props) => {
   const RADIAN = Math.PI / 180;
@@ -97,26 +99,60 @@ const Statistic = () => {
   );
 
   return (
-    <section className="py-5">
-      <div className="container">
-        <div className="w-fit mx-auto">
-          <PieChart width={400} height={400}>
-            <Pie
-              activeIndex={activeIndex}
-              activeShape={renderActiveShape}
-              data={assignmentData}
-              cx={200}
-              cy={200}
-              innerRadius={60}
-              outerRadius={80}
-              fill="#8884d8"
-              dataKey="value"
-              onMouseEnter={onPieEnter}
-            />
-          </PieChart>
+    <>
+      <Breadcrumb title={"Assignment Marks"} />
+      <section className="py-5">
+        <div className="container">
+          <div className="text-end">
+            <label
+              htmlFor="statistic"
+              className="btn btn-sm btn-gradient border-0 rounded"
+            >
+              <UilInfoCircle className="w-4 fill-white" />
+            </label>
+          </div>
+          <div className="w-fit mx-auto">
+            <PieChart width={400} height={400}>
+              <Pie
+                activeIndex={activeIndex}
+                activeShape={renderActiveShape}
+                data={assignmentData}
+                cx={200}
+                cy={200}
+                innerRadius={60}
+                outerRadius={80}
+                fill="#8884d8"
+                dataKey="value"
+                onMouseEnter={onPieEnter}
+              />
+            </PieChart>
+          </div>
+        </div>
+      </section>
+      <div>
+        <input type="checkbox" id="statistic" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box relative w-auto">
+            <label
+              htmlFor="statistic"
+              className="btn btn-sm btn-circle btn-gradient border-0 absolute right-2 top-2"
+            >
+              ✕
+            </label>
+            <ul className="list-disc list-inside mt-5">
+              <li>A1 &#8614; Assignment 1</li>
+              <li>A2 &#8614; Assignment 2</li>
+              <li>A3 &#8614; Assignment 3</li>
+              <li>A4 &#8614; Assignment 4</li>
+              <li>A5 &#8614; Assignment 5</li>
+              <li>A6 &#8614; Assignment 6</li>
+              <li>A7 &#8614; Assignment 7</li>
+              <li>A8 &#8614; Assignment 8</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </section>
+    </>
   );
 };
 
