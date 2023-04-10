@@ -23,7 +23,7 @@ const Jobs = () => {
             ))}
           </div>
           {!showMore ? (
-            <div className="mt-8 text-center">
+            <div className="mt-8 text-end sm:text-center">
               <button
                 type="button"
                 className="btn btn-sm btn-gradient border-0 rounded normal-case"
