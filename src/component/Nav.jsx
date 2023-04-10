@@ -24,7 +24,7 @@ const Nav = ({ navLink }) => {
   return (
     <>
       <nav
-        className="bg-[linear-gradient(90deg,_rgba(126,_144,_254,_0.05)_0%,_rgba(152,_115,_255,_0.05)_100%)]"
+        className="relative bg-[linear-gradient(90deg,_rgba(126,_144,_254,_0.05)_0%,_rgba(152,_115,_255,_0.05)_100%)] z-20"
         ref={collapseHbMenu}
       >
         <div className="container">
@@ -59,7 +59,7 @@ const Nav = ({ navLink }) => {
                   </li>
                   <li onClick={(_) => setHbMenu(false)}>
                     <NavLink
-                      to="/shop"
+                      to="/statistic"
                       className={({ isActive }) =>
                         isActive ? "text-gradient" : ""
                       }
@@ -69,7 +69,7 @@ const Nav = ({ navLink }) => {
                   </li>
                   <li onClick={(_) => setHbMenu(false)}>
                     <NavLink
-                      to="/order-review"
+                      to="/applied-job"
                       className={({ isActive }) =>
                         isActive ? "text-gradient" : ""
                       }
@@ -79,7 +79,7 @@ const Nav = ({ navLink }) => {
                   </li>
                   <li onClick={(_) => setHbMenu(false)}>
                     <NavLink
-                      to="/login"
+                      to="/blog"
                       className={({ isActive }) =>
                         isActive ? "text-gradient" : ""
                       }

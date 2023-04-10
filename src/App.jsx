@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { rootLoader } from "./utility/index.js";
 import Root from "./route/Root.jsx";
 import Home from "./route/Home.jsx";
+import AppliedJobs from "./route/AppliedJobs.jsx";
 import JobDetails from "./route/JobDetails.jsx";
 
 function App() {
@@ -14,6 +15,10 @@ function App() {
         {
           path: "/",
           element: <Home />,
+        },
+        {
+          path: "/applied-job",
+          element: <AppliedJobs />,
         },
         {
           path: "/jobs/details/:jobId",
