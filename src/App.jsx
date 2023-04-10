@@ -5,6 +5,7 @@ import Error from "./route/Error.jsx";
 import Home from "./route/Home.jsx";
 import Statistic from "./route/Statistic.jsx";
 import AppliedJobs from "./route/AppliedJobs.jsx";
+import Blog from "./route/Blog.jsx";
 import JobDetails from "./route/JobDetails.jsx";
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
         {
           path: "/applied-job",
           element: <AppliedJobs />,
+        },
+        {
+          path: "/blog",
+          element: <Blog />,
         },
         {
           path: "/jobs/details/:jobId",
