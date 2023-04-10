@@ -8,3 +8,19 @@ export const rootLoader = async () => {
 
   return [categories, jobs];
 };
+
+export const applyJob = (id) => {
+  const job = getJob();
+
+  job.push(id);
+  localStorage.setItem("job", JSON.stringify(job));
+};
+
+export const getJob = () => {
+  let job = [];
+  const getJob = localStorage.getItem("job");
+
+  if (getJob) job = JSON.parse(getJob);
+
+  return job;
+};
