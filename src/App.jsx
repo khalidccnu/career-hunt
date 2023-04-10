@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { rootLoader } from "./utility/index.js";
 import Root from "./route/Root.jsx";
 import Home from "./route/Home.jsx";
 
@@ -7,6 +8,7 @@ function App() {
     {
       path: "/",
       element: <Root />,
+      loader: rootLoader,
       children: [
         {
           path: "/",
