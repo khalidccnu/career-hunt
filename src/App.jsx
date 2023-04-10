@@ -3,6 +3,7 @@ import { rootLoader } from "./utility/index.js";
 import Root from "./route/Root.jsx";
 import Error from "./route/Error.jsx";
 import Home from "./route/Home.jsx";
+import Statistic from "./route/Statistic.jsx";
 import AppliedJobs from "./route/AppliedJobs.jsx";
 import JobDetails from "./route/JobDetails.jsx";
 
@@ -17,6 +18,10 @@ function App() {
         {
           path: "/",
           element: <Home />,
+        },
+        {
+          path: "/statistic",
+          element: <Statistic />,
         },
         {
           path: "/applied-job",
