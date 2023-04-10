@@ -7,6 +7,10 @@
         @apply bg-[linear-gradient(90deg,_#7E90FE_0%,_#9873FF_100%)] bg-clip-text text-transparent;
     }
 
+    .badge-gradient {
+        @apply bg-[linear-gradient(90deg,_#7E90FE_0%,_#9873FF_100%)] bg-clip-text text-transparent border border-[#7E90FE];
+    }
+
     .btn-gradient {
         @apply bg-[linear-gradient(90deg,_#7E90FE_0%,_#9873FF_100%)] text-white;
     }
